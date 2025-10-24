@@ -1,0 +1,4 @@
+# This directory stores persistent SQLite database
+# The directory itself is tracked but database files are ignored
+# appuser (UID 1001) has write access to this directory
+

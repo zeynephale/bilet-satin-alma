@@ -1,0 +1,32 @@
+# Environment
+.env.local
+.env.*.local
+
+# Runtime database (IGNORE)
+docker/var-data/*.sqlite
+docker/var-data/*.db
+docker/var-data/*.sqlite-*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/
+
+# Dependencies (if applicable)
+vendor/
+node_modules/
+
